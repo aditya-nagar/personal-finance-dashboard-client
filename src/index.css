@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* GLOBAL THEME */
+body {
+  @apply bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-slate-100;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+@layer base {
+  input,
+  textarea,
+  select {
+    @apply text-slate-900 placeholder-slate-500 bg-white/90;
+  }
+}
