@@ -1,9 +1,8 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: import.meta.env.VITE_API_URL + "/api",
+  baseURL: "https://finance-dashboard-backend-2dkk.onrender.com/api",
   withCredentials: true,
 });
-
 
 export default API;
